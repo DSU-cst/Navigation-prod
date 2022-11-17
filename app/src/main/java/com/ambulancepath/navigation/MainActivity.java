@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             editor.apply();
 
             // only for debugging
-            Toast.makeText(view.getContext(), "User type is now set to " + usertype, Toast.LENGTH_LONG).show();
+            Toast.makeText(view.getContext(), "User Type is now set to " + usertype, Toast.LENGTH_LONG).show();
         }
     }
 
