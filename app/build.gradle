@@ -7,7 +7,7 @@ plugins {
 
 sonarqube {
     properties {
-        property "sonar.projectKey", "Ambulance-Path-Detection"
+        property "sonar.projectKey", "Navigation"
     }
 }
 
