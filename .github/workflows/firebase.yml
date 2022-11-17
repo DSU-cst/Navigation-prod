@@ -25,7 +25,7 @@ jobs:
     - name: Execute Gradle build
       env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-      run: ./gradlew assembleDebug appDistributionUploadDebug
+      run: ./gradlew assembleDebug appDistributionUploadDebug && ls ./build/outputs/apk/debug
   test:
     name: Test on Sonarqube
     runs-on: ubuntu-latest
