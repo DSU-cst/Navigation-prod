@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             SharedPreferences.Editor editor = sharedPref.edit();
             editor.putString(getString(R.string.saved_user_type), usertype);
             editor.apply();
-
+            //change to test workflow
             // only for debugging
             Toast.makeText(view.getContext(), "User Type Is now set to " + usertype, Toast.LENGTH_LONG).show();
         }
